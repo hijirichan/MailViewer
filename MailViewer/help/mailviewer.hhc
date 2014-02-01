@@ -1,0 +1,83 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="ImageType" value="Folder">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Mail Viewerのヘルプ">
+		<param name="Local" value="00.html">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="動作環境">
+			<param name="ImageNumber" value="1">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="動作環境">
+				<param name="Local" value="01.html">
+				<param name="ImageNumber" value="9">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="使い方">
+			<param name="Local" value="02.html">
+			<param name="ImageNumber" value="1">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="メールの設定">
+				<param name="Local" value="02-1.html">
+				<param name="ImageNumber" value="9">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="メールの送受信">
+				<param name="Local" value="02-2.html">
+				<param name="ImageNumber" value="9">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="メールの保存">
+				<param name="Local" value="02-3.html">
+				<param name="ImageNumber" value="9">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="その他">
+				<param name="Local" value="02-4.html">
+				<param name="ImageNumber" value="9">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="その他">
+			<param name="ImageNumber" value="1">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="その他">
+				<param name="Local" value="03.html">
+				<param name="ImageNumber" value="9">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="開発環境">
+				<param name="Local" value="03-1.html">
+				<param name="ImageNumber" value="9">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="作者にメール">
+				<param name="Local" value="mailto:lasty@user.script.nu">
+				<param name="ImageNumber" value="25">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="作者のページ">
+				<param name="Local" value="http://angelteatime.punyu.net/">
+				<param name="ImageNumber" value="15">
+				</OBJECT>
+		</UL>
+	</UL>
+</UL>
+</BODY></HTML>

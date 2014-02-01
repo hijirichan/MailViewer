@@ -1,0 +1,31 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=mailviewer.chm
+Contents file=C:\My Publishing\mailview\help\mailviewer.hhc
+Default Font=MS UI Gothic,9,128
+Default Window=mailviewer01
+Default topic=00.html
+Display compile progress=No
+Full-text search=Yes
+Index file=C:\My Publishing\mailview\help\mailviewer.hhk
+Language=0x411 “ú–{Œê
+Title=Mail Viewerƒwƒ‹ƒv
+
+[WINDOWS]
+mailviewer01="Mail Viewerƒwƒ‹ƒv","mailviewer.hhc","mailviewer.hhk","00.html",,,,,,0x3520,,0x3006,,,,,,1,,0
+
+
+[FILES]
+01.html
+02.html
+02-1.html
+02-2.html
+02-3.html
+02-4.html
+03.html
+03-1.html
+00.html
+popup.js
+
+[INFOTYPES]
+

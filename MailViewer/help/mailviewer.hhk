@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="動作環境">
+		<param name="Name" value="動作環境">
+		<param name="Local" value="01.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="開発環境">
+		<param name="Name" value="開発環境">
+		<param name="Local" value="03-1.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SMTPの設定">
+		<param name="Name" value="SMTP/POP3の設定">
+		<param name="Local" value="02-1.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="POP3の設定">
+		<param name="Name" value="SMTP/POP3の設定">
+		<param name="Local" value="02-1.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="アプリケーションの終了">
+		<param name="Name" value="その他">
+		<param name="Local" value="02-5.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ヘルプの表示">
+		<param name="Name" value="その他">
+		<param name="Local" value="02-5.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="バージョン情報">
+		<param name="Name" value="その他">
+		<param name="Local" value="02-5.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="メールの削除">
+		<param name="Name" value="メールの送受信">
+		<param name="Local" value="02-3.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="メールの保存">
+		<param name="Name" value="メールの保存">
+		<param name="Local" value="02-4.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="作者のページ">
+		<param name="Name" value="天使のお茶会">
+		<param name="Local" value="http://angelteatime.punyu.net/">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="作者にメール">
+		<param name="Name" value="作者にメール">
+		<param name="Local" value="mailto:lasty@user.script.nu">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="その他の情報">
+		<param name="Name" value="その他">
+		<param name="Local" value="03.html">
+		</OBJECT>
+</UL>
+</BODY></HTML>

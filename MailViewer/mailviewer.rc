@@ -1,0 +1,350 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "ファイル(&F)"
+    BEGIN
+        MENUITEM "添付ファイルの展開(&O)\tCtrl+O",       IDM_OPEN
+        MENUITEM "メールの保存(&S)\tCtrl+S",          IDM_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "ページ設定(&U)",                   IDM_PAGEINF, GRAYED
+        MENUITEM "印刷(&P)...\tCtrl+P",           IDM_PRINT
+        MENUITEM SEPARATOR
+        MENUITEM "アプリケーションの終了(&X)\tAlt+F4",     IDM_EXIT
+    END
+    POPUP "メール(&M)"
+    BEGIN
+        MENUITEM "メールの作成(&N)\tCtrl+N",          IDM_NEW
+        MENUITEM "メールの受信(&M)\tCtrl+R",          IDM_RCVMAIL
+        MENUITEM "メールの返信(&R)\tCtrl+L",          IDM_REPLY
+        MENUITEM "メールの削除(&D)\tDel",             IDM_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "ヘッダ情報の表示(&H)\tCtrl+H",        IDM_HEADER
+    END
+    POPUP "設定(&S)"
+    BEGIN
+        MENUITEM "メールの設定(&S)",                  IDM_SET
+    END
+    POPUP "ヘルプ(&H)"
+    BEGIN
+        MENUITEM "ヘルプ(&H)\tF1",                 IDM_HELP
+        MENUITEM SEPARATOR
+        MENUITEM "バージョン情報(&A)",                 IDM_ABOUT
+    END
+END
+
+IDR_MENU2 MENU 
+BEGIN
+    POPUP "ダミー"
+    BEGIN
+        MENUITEM "メールの返信(&R)\tCtrl+L",          IDM_REPLY
+        MENUITEM "メールの保存(&S)\tCtrl+S",          IDM_SAVE
+        MENUITEM "メールの印刷(&P)\tCtrl+P",          IDM_PRINT
+        MENUITEM "メールの削除(&D)\tDel",             IDM_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "ヘッダ情報表示(&H)\tCtrl+H",         IDM_HEADER
+    END
+END
+
+IDR_MENU3 MENU 
+BEGIN
+    POPUP "ファイル(&F)"
+    BEGIN
+        MENUITEM "メールを送信(&S)",                  IDM_SENDMAIL
+        MENUITEM SEPARATOR
+        MENUITEM "ファイルの添付(&A)",                 IDM_ATTATCH
+        MENUITEM SEPARATOR
+        MENUITEM "閉じる(&C)",                     IDM_CLOSE
+    END
+    POPUP "編集(&E)"
+    BEGIN
+        MENUITEM "元に戻す(&U)",                    IDM_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "切り取り(&T)",                    IDM_CUT
+        MENUITEM "コピー(&C)",                     IDM_COPY
+        MENUITEM "貼り付け(&P)",                    IDM_PASTE
+        MENUITEM "削除(&D)",                      IDM_DEL
+        MENUITEM SEPARATOR
+        MENUITEM "すべて選択(&A)",                   IDM_ALLSEL
+    END
+    POPUP "ヘルプ(&H)"
+    BEGIN
+        MENUITEM "ヘルプ(&H)",                     IDM_HELP
+    END
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCELERATOR1 ACCELERATORS 
+BEGIN
+    "H",            IDM_HEADER,             VIRTKEY, CONTROL, NOINVERT
+    "L",            IDM_REPLY,              VIRTKEY, CONTROL, NOINVERT
+    "N",            IDM_NEW,                VIRTKEY, CONTROL, NOINVERT
+    "O",            IDM_OPEN,               VIRTKEY, CONTROL, NOINVERT
+    "P",            IDM_PRINT,              VIRTKEY, CONTROL, NOINVERT
+    "R",            IDM_RCVMAIL,            VIRTKEY, CONTROL, NOINVERT
+    "S",            IDM_SAVE,               VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      IDM_DELETE,             VIRTKEY, NOINVERT
+    VK_F1,          IDM_HELP,               VIRTKEY, NOINVERT
+    VK_F4,          IDM_EXIT,               VIRTKEY, ALT, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 219, 202
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "メールの設定"
+FONT 9, "ＭＳ Ｐゴシック", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,107,181,50,14
+    PUSHBUTTON      "ｷｬﾝｾﾙ",IDCANCEL,161,181,50,14
+    LTEXT           "ユーザ名：",IDC_STATIC,26,21,32,8,0,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT1,60,19,146,12,ES_AUTOHSCROLL | WS_GROUP
+    LTEXT           "パスワード：",IDC_STATIC,22,39,35,8,0,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT2,60,37,146,12,ES_PASSWORD | ES_AUTOHSCROLL | WS_GROUP
+    LTEXT           "名前：",IDC_STATIC,40,57,18,8,0,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT3,60,55,146,12,ES_AUTOHSCROLL | WS_GROUP
+    LTEXT           "メールアドレス：",IDC_STATIC,12,74,46,8,0,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT4,60,73,146,12,ES_AUTOHSCROLL | WS_GROUP
+    GROUPBOX        "ユーザ情報",IDC_STATIC,7,7,205,88,WS_GROUP
+    GROUPBOX        "サーバ情報",IDC_STATIC,7,102,205,76,WS_GROUP
+    LTEXT           "SMTPサーバ：",IDC_STATIC,16,115,42,8,0,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT5,60,113,146,12,ES_AUTOHSCROLL | WS_GROUP
+    LTEXT           "POP3サーバ：",IDC_STATIC,17,132,41,8,0,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT6,60,131,146,12,ES_AUTOHSCROLL | WS_GROUP
+    CONTROL         "APOP",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,60,148,29,10,WS_EX_TRANSPARENT
+    CONTROL         "POP Before SMTP",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,92,148,70,10
+    CONTROL         "受信したメールをサーバに残す",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,60,161,106,10
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 213, 81
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "バージョン情報"
+FONT 9, "ＭＳ Ｐゴシック", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,156,7,50,14
+    LTEXT           "Mail Viewer Version 0.07",IDC_STATIC,40,11,74,8
+    LTEXT           "(C) 2003-2008 Angelic Software",IDC_STATIC,41,23,95,8
+    LTEXT           "Static",IDC_STATIC1,113,37,19,8
+    ICON            IDI_ICON1,IDC_STATIC,14,11,20,20
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,40,50,164,1
+    LTEXT           "nMail.DLLのバージョン：",IDC_STATIC,42,37,70,8
+    LTEXT           "URL：http://angelteatime.punyu.net/",IDC_STATIC,49,55,106,8
+    LTEXT           "E-mail：floremilfia@hotmail.com",IDC_STATIC,42,66,92,8
+END
+
+IDD_DIALOG3 DIALOG  0, 0, 381, 247
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ヘッダ情報"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "閉じる",IDOK,324,7,50,14
+    EDITTEXT        IDC_EDIT1,7,7,313,233,ES_MULTILINE | ES_AUTOVSCROLL | ES_WANTRETURN | WS_VSCROLL
+END
+
+IDD_DIALOG4 DIALOG  0, 0, 434, 327
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "メール作成"
+MENU IDR_MENU3
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "送信",IDOK,381,1,50,14
+    PUSHBUTTON      "閉じる",IDCANCEL,381,20,50,14
+    LTEXT           "宛先：",IDC_STATIC,3,5,18,9
+    EDITTEXT        IDC_EDIT1,22,3,356,12,ES_AUTOHSCROLL
+    LTEXT           "件名：",IDC_STATIC,3,22,17,9
+    EDITTEXT        IDC_EDIT2,22,21,356,12,ES_AUTOHSCROLL
+    LTEXT           "添付：",IDC_STATIC,3,40,18,9
+    EDITTEXT        IDC_EDIT3,22,39,356,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,0,57,433,269,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+    PUSHBUTTON      "参照",IDC_BUTTON1,381,38,50,14
+END
+
+IDD_DIALOG5 DIALOG  0, 0, 318, 255
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "添付ファイルを展開して保存"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    DEFPUSHBUTTON   "展開(&E)",IDOK,203,234,50,14,WS_DISABLED
+    PUSHBUTTON      "ｷｬﾝｾﾙ",IDCANCEL,257,234,50,14
+    LISTBOX         IDC_LIST1,7,24,303,179,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "ファイル一覧(&L)：",IDC_STATIC,10,11,51,9
+    LTEXT           "出力フォルダ(&F)：",IDC_STATIC,10,213,51,8
+    EDITTEXT        IDC_EDIT1,64,211,231,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_FILEBTN,296,211,14,13
+    PUSHBUTTON      "追加(&A)",IDC_BUTTON1,149,234,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "res\\icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,0,7,0
+ PRODUCTVERSION 0,0,7,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041104b0"
+        BEGIN
+            VALUE "Comments", "Mail Viewer"
+            VALUE "CompanyName", "Angelic Software"
+            VALUE "FileDescription", "Win32 Mail Viewer Application"
+            VALUE "FileVersion", "0, 0, 7, 0"
+            VALUE "InternalName", "mailviewer"
+            VALUE "LegalCopyright", "Copyright (C) 2003-2008 Angelic Software"
+            VALUE "OriginalFilename", "mailviewer.exe"
+            VALUE "ProductName", "Angelic Software Mail Viewer"
+            VALUE "ProductVersion", "0, 0, 7, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x411, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 212
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 195
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 206
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 74
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 374
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 240
+    END
+
+    IDD_DIALOG4, DIALOG
+    BEGIN
+        RIGHTMARGIN, 433
+        BOTTOMMARGIN, 326
+    END
+
+    IDD_DIALOG5, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 311
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 248
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 日本語 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
